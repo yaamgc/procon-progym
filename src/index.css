@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+.markdown-content :is(h1, h2, h3, h4, p, li) {
+	line-height: 1.5;
+}
+
+.markdown-content :is(h1, h2, h3, h4,p) {
+	margin-block: 0.4em;
+    margin-left:30px;
+}
+
+.markdown-content h1 {
+	color: #dc2626;
+}
+
+.markdown-content pre{
+    margin:20px;
+}
+.prose pre {
+  background-color: #1f293700;
+  overflow-x: auto;
+}
+
+.markdown-content img{
+    max-width: 600px;
+    width: 100%;
+}
